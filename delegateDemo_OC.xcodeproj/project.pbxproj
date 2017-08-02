@@ -15,6 +15,7 @@
 		6C6A2A281F3161A6005289D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A2A261F3161A6005289D4 /* LaunchScreen.storyboard */; };
 		6C6A2A331F3161A6005289D4 /* delegateDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A2A321F3161A6005289D4 /* delegateDemo_OCTests.m */; };
 		6C6A2A3E1F3161A7005289D4 /* delegateDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A2A3D1F3161A7005289D4 /* delegateDemo_OCUITests.m */; };
+		6C78A8451F31621F005F13C2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78A8441F31621F005F13C2 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6C6A2A391F3161A7005289D4 /* delegateDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegateDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6A2A3D1F3161A7005289D4 /* delegateDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateDemo_OCUITests.m; sourceTree = "<group>"; };
 		6C6A2A3F1F3161A7005289D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C78A8431F31621F005F13C2 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6C78A8441F31621F005F13C2 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6C6A2A1C1F3161A6005289D4 /* AppDelegate.m */,
 				6C6A2A1E1F3161A6005289D4 /* ViewController.h */,
 				6C6A2A1F1F3161A6005289D4 /* ViewController.m */,
+				6C78A8431F31621F005F13C2 /* TestViewController.h */,
+				6C78A8441F31621F005F13C2 /* TestViewController.m */,
 				6C6A2A211F3161A6005289D4 /* Main.storyboard */,
 				6C6A2A241F3161A6005289D4 /* Assets.xcassets */,
 				6C6A2A261F3161A6005289D4 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				6C6A2A201F3161A6005289D4 /* ViewController.m in Sources */,
 				6C6A2A1D1F3161A6005289D4 /* AppDelegate.m in Sources */,
+				6C78A8451F31621F005F13C2 /* TestViewController.m in Sources */,
 				6C6A2A1A1F3161A6005289D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +515,7 @@
 				6C6A2A441F3161A7005289D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6A2A451F3161A7005289D4 /* Build configuration list for PBXNativeTarget "delegateDemo_OCTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				6C6A2A471F3161A7005289D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6A2A481F3161A7005289D4 /* Build configuration list for PBXNativeTarget "delegateDemo_OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				6C6A2A4A1F3161A7005289D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
